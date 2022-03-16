@@ -1,0 +1,28 @@
+package testing;
+
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+
+import org.junit.Test;
+
+import application.MR_Application;
+import dbadapter.DBFacade;
+import junit.framework.TestCase;
+
+public class MR_ApplicationTest extends TestCase {
+	
+	public MR_ApplicationTest() {
+		super();
+	}
+	
+	@Test
+	public void testCheckPayment() {
+		DBFacade stub = mock(DBFacade.class);
+		DBFacade.setInstance(stub);
+		
+		MR_Application.getInstance()	
+		verify(stub, times(1)).setAvailableHolidayOffer();
+	}
+
+}

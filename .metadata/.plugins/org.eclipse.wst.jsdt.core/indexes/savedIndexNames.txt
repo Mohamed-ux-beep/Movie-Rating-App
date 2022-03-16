@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+E:\Uni pdfs\SWT\project  3\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1036426019.index
+836562673.index
+2115189705.index
+1124840654.index
+181557831.index
+2471057810.index

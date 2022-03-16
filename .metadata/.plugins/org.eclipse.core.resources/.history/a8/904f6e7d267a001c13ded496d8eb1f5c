@@ -1,0 +1,32 @@
+package testing;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import net.sourceforge.jwebunit.junit.WebTester;
+
+/**
+ * This class performs a system test on the GuestGUI using JWebUnit.
+ * 
+ * @author swe.uni-due.de
+ *
+ */
+public class GuestGUIWebTestCase {
+
+	private WebTester tester;
+
+	/**
+	 * Create a new WebTester object that performs the test.
+	 */
+	@Before
+	public void prepare() {
+		tester = new WebTester();
+		tester.setBaseUrl("http://localhost:8080/VR/");
+	}
+
+	@Test
+	public void testBrowseHolidayOffers() {
+		// Start testing for guestgui
+
+
+}

@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [21/Jan/2022:00:03:51 +0100] "GET /MRapp/index HTTP/1.1" 200 1710
+0:0:0:0:0:0:0:1 - - [21/Jan/2022:00:05:58 +0100] "GET /MRapp/usergui?action=signIn HTTP/1.1" 200 1123
+0:0:0:0:0:0:0:1 - - [21/Jan/2022:00:06:52 +0100] "GET /MRapp/index HTTP/1.1" 200 1726
+0:0:0:0:0:0:0:1 - - [21/Jan/2022:00:06:55 +0100] "GET /MRapp/usergui?action=signIn HTTP/1.1" 200 1123
+0:0:0:0:0:0:0:1 - - [21/Jan/2022:00:08:37 +0100] "POST /MRapp/usergui?action=signIn HTTP/1.1" 200 1085
+0:0:0:0:0:0:0:1 - - [21/Jan/2022:00:08:37 +0100] "GET /MRapp/images/unilogo.png HTTP/1.1" 304 -

@@ -1,0 +1,26 @@
+package testing;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import net.sourceforge.jwebunit.junit.WebTester;
+
+public class PersonGUIWebTestCase {
+	private WebTester tester;
+
+	@Before
+	public void prepare() {
+		tester = new WebTester();
+		tester.setBaseUrl("http://localhost:8080/MRapp/");
+	}
+	
+	@Test
+	public void testRegisterNewUser() {
+		// Start testing for persongui
+		tester.beginAt("persongui");
+		
+		// Check all components of the Registering form
+		
+		tester.assertTitleEquals(null);
+	}
+}
